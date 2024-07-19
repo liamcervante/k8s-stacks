@@ -75,5 +75,5 @@ resource "google_container_cluster" "default" {
   #   enabled = false
   # }
 
-  # deletion_protection = false
+  deletion_protection = false
 }
