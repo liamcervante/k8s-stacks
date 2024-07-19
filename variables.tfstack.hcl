@@ -8,6 +8,7 @@ variable "kubernetes_version" {
 
 variable "identity_token_gcp" {
   type = string
+  ephemeral = true
 }
 
 # variable "identity_token_kube" {

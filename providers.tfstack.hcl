@@ -13,7 +13,7 @@ provider "google" "main" {
   config {
     project = var.gcp_project
     region  = var.gcp_region
-    access_token = var.identity_token
+    access_token = var.identity_token_gcp
     # credentials = jsonencode(
     #   {
     #     "type": "external_account",
