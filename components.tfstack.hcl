@@ -12,10 +12,10 @@ component "cluster" {
   }
 }
 
-component "kube" {
-  source = "./kube"
+# component "kube" {
+#   source = "./kube"
 
-  providers = {
-    kubernetes = provider.kubernetes.main
-  }
-}
+#   providers = {
+#     kubernetes = provider.kubernetes.main
+#   }
+# }
