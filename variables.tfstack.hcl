@@ -10,9 +10,9 @@ variable "identity_token_gcp" {
   type = string
 }
 
-variable "identity_token_kube" {
-  type = string
-}
+# variable "identity_token_kube" {
+#   type = string
+# }
 
 variable "gcp_region" {
   type = string
